@@ -36,7 +36,7 @@ class Loader extends PluginBase implements Listener
 
     public function onEnable() : void
     {
-        $this->getLogger()->info(TextFormat::GREEN . "Mineplex Progressbar enabled!");
+        $this->getLogger()->info(TextFormat::GREEN . "SuperLeap enabled!");
         $this->saveDefaultConfig();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
