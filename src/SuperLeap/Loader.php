@@ -94,7 +94,7 @@ class Loader extends PluginBase implements Listener
                 $sender->sendMessage(TextFormat::RED . "This command can be executed only in-game!");
                 return true;
             }
-            $sender->getInventory()->addItem(Item::get(Item::LEATHER)->setCustomName(TextFormat::RESET . TextFormat::GREEN . "Super Leap"));
+            $sender->getInventory()->addItem(Item::get(Item::FEATHER)->setCustomName(TextFormat::RESET . TextFormat::GREEN . "Super Leap"));
         }
     }
 
